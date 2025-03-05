@@ -338,84 +338,81 @@
                     </div>
 
                     <div class="mx-auto max-w-2xl mt-6">
-                        <form class="row g-4 needs-validation" id="myForm" action="https://formspree.io/f/mrbpzzzp" method="POST">
-                            <div class="col-md-6">
-                                <label for="nameForm" class="form-label text-sm">
-                                    Nom complet
-                                    <span class="text-danger-emphasis">*</span>
-                                </label>
-                                <input type="text" class="form-control form-control-sm" name="nameForm" id="nameForm" required>
-                                <div class="invalid-feedback text-xs">
-                                    Veuillez entrer votre nom complet.
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <label for="emailForm" class="form-label text-sm">
-                                    Adresse e-mail
-                                    <span class="text-danger-emphasis">*</span>
-                                </label>
-                                <input type="email" class="form-control form-control-sm" name="emailForm" id="emailForm" required>
-                                <div class="invalid-feedback text-xs">
-                                    Veuillez entrer votre adresse e-mail.
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <label for="phoneForm" class="form-label text-sm">
-                                    Numéro de téléphone
-                                    <span class="text-danger-emphasis">*</span>
-                                </label>
-                                <input type="text" class="form-control form-control-sm" name="phoneForm" id="phoneForm" required>
-                                <div class="invalid-feedback text-xs">
-                                    Veuillez entrer votre numéro de téléphone.
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <label for="subjectForm" class="form-label text-sm">
-                                    Objet
-                                    <span class="text-danger-emphasis">*</span>
-                                </label>
-                                <input type="text" class="form-control form-control-sm" name="subjectForm" id="subjectForm" required>
-                                <div class="invalid-feedback text-xs">
-                                    Veuillez entrer un objet pour votre message.
-                                </div>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="messageForm" class="form-label text-sm">
-                                    Votre message
-                                    <span class="text-danger-emphasis">*</span>
-                                </label>
-                                <textarea class="form-control form-control-sm" name="messageForm" id="messageForm" rows="3" required></textarea>
-                                <div class="invalid-feedback text-xs">
-                                    Veuillez entrer un message.
-                                </div>
-                            </div>
-
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                                    <label class="form-check-label text-sm" for="gridCheck">
-                                        J'accepte les termes et conditions et la politique de confidentialité
-                                        <span class="text-danger-emphasis">*</span>
-                                    </label>
-                                    <div class="invalid-feedback text-xs">
-                                        Veuillez accepter les termes et conditions et la politique de confidentialité.
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-12 text-center pt-3">
-                                <button type="submit" class="btn btn-lg btn-primary text-white text-sm fw-semibold" id="sendMessage">
-                                    Envoyer !
-                                </button>
-                            </div>
-
-                            <!-- Alert message  -->
-                            <div class="col-12" id="yourMessageIsSent"></div>
-                        </form>
+                                                <form class="row g-4 needs-validation" id="myForm" action="https://formspree.io/f/mrbpzzzp" method="POST">
+							<div class="col-md-6">
+								<label for="nameForm" class="form-label text-sm">
+									Nom complet
+									<span class="text-danger-emphasis">*</span>
+								</label>
+								<input type="text" class="form-control form-control-sm" name="Nom complet" id="nameForm" required>
+								<div class="invalid-feedback text-xs">
+									Veuillez entrer votre nom complet.
+								</div>
+							</div>
+						
+							<div class="col-md-6">
+								<label for="emailForm" class="form-label text-sm">
+									Adresse e-mail
+									<span class="text-danger-emphasis">*</span>
+								</label>
+								<input type="email" class="form-control form-control-sm" name="email" id="emailForm" required>
+								<div class="invalid-feedback text-xs">
+									Veuillez entrer votre adresse e-mail.
+								</div>
+							</div>
+						
+							<div class="col-md-6">
+								<label for="phoneForm" class="form-label text-sm">
+									Numéro de téléphone
+									<span class="text-danger-emphasis">*</span>
+								</label>
+								<input type="text" class="form-control form-control-sm" name="phone" id="phoneForm" required>
+								<div class="invalid-feedback text-xs">
+									Veuillez entrer votre numéro de téléphone.
+								</div>
+							</div>
+						
+							<div class="col-md-6">
+								<label for="subjectForm" class="form-label text-sm">
+									Objet
+									<span class="text-danger-emphasis">*</span>
+								</label>
+								<input type="text" class="form-control form-control-sm" name="subject" id="subjectForm" required>
+								<div class="invalid-feedback text-xs">
+									Veuillez entrer un objet pour votre message.
+								</div>
+							</div>
+						
+							<div class="mb-3">
+								<label for="messageForm" class="form-label text-sm">
+									Votre message
+									<span class="text-danger-emphasis">*</span>
+								</label>
+								<textarea class="form-control form-control-sm" name="message" id="messageForm" rows="3" required></textarea>
+								<div class="invalid-feedback text-xs">
+									Veuillez entrer un message.
+								</div>
+							</div>
+						
+							<div class="col-12">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="gridCheck" required>
+									<label class="form-check-label text-sm" for="gridCheck">
+										J'accepte les termes et conditions et la politique de confidentialité
+										<span class="text-danger-emphasis">*</span>
+									</label>
+									<div class="invalid-feedback text-xs">
+										Veuillez accepter les termes et conditions et la politique de confidentialité.
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-12 text-center pt-3">
+								<button type="submit" class="btn btn-lg btn-primary text-white text-sm fw-semibold" id="sendMessage">
+									Envoyer !
+								</button>
+							</div>
+						</form>
                     </div>
                 </div>
 
