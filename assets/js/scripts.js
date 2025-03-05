@@ -1,6 +1,6 @@
 
 // Replace   enter_your_form_action_url_here   with your actual Mailchimp URL
-const formActionURL = `enter_your_form_action_url_here`; 
+const formActionURL = `https://formspree.io/f/mrbpzzzp`; 
 
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
